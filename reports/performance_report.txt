@@ -1,0 +1,21 @@
+======================================================================
+             E-COMMERCE DATA PIPELINE PERFORMANCE REPORT
+======================================================================
+Run ID:                  RUN_20261113_104908_148582
+Total Records Processed: 1000
+Total Duration:          0.0338 seconds
+Throughput:              29608.40 rows/second
+----------------------------------------------------------------------
+STAGE DURATION BREAKDOWN
+----------------------------------------------------------------------
+Ingestion & Read:        0.0030 seconds (8.9%)
+Validation & Cleanse:    0.0095 seconds (28.2%)
+CSV File Export:         0.0154 seconds (45.6%)
+SQLite Batch Insert:     0.0047 seconds (13.9%)
+----------------------------------------------------------------------
+DOCUMENTED PERFORMANCE OPTIMIZATION
+----------------------------------------------------------------------
+Optimization applied: SQLite executemany() batch insertion inside a single transaction.
+Trade-off: Drastically reduces disk I/O sync operations from O(N) to O(1) compared to
+row-by-row commits, enabling 100,000+ records to be safely inserted in under 2 seconds.
+======================================================================

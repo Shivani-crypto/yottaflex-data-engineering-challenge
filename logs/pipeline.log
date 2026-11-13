@@ -1,0 +1,152 @@
+2026-11-12 23:49:19,818 - INFO - ========== Starting Pipeline Run RUN_20261112_234919_559814 ==========
+2026-11-12 23:49:19,919 - INFO - Validation completed: 434 valid records, 66 rejected records
+2026-11-12 23:49:19,930 - INFO - Clean records saved to: data/processed/clean_orders.csv
+2026-11-12 23:49:19,934 - INFO - Rejected records saved to: data/rejected/rejected_orders.csv
+2026-11-12 23:49:19,976 - INFO - Database publish complete: 434 new records inserted, 0 already existed in DB
+2026-11-12 23:49:19,979 - INFO - Quality report generated at: reports/quality_report.json
+2026-11-12 23:49:19,980 - INFO - Reconciliation report generated at: reports/reconciliation_report.txt
+2026-11-12 23:49:19,982 - INFO - Performance report generated at: reports/performance_report.txt
+2026-11-12 23:49:19,983 - INFO - ========== Pipeline Run RUN_20261112_234919_559814 Finished Successfully ==========
+2026-11-12 23:49:30,430 - INFO - ========== Starting Pipeline Run RUN_20261112_234930_570430 ==========
+2026-11-12 23:49:30,479 - INFO - Validation completed: 434 valid records, 66 rejected records
+2026-11-12 23:49:30,490 - INFO - Clean records saved to: data/processed/clean_orders.csv
+2026-11-12 23:49:30,494 - INFO - Rejected records saved to: data/rejected/rejected_orders.csv
+2026-11-12 23:49:30,499 - INFO - Database publish complete: 0 new records inserted, 434 already existed in DB
+2026-11-12 23:49:30,501 - INFO - Quality report generated at: reports/quality_report.json
+2026-11-12 23:49:30,502 - INFO - Reconciliation report generated at: reports/reconciliation_report.txt
+2026-11-12 23:49:30,504 - INFO - Performance report generated at: reports/performance_report.txt
+2026-11-12 23:49:30,504 - INFO - ========== Pipeline Run RUN_20261112_234930_570430 Finished Successfully ==========
+2026-11-12 23:52:57,508 - INFO - ========== Starting Pipeline Run RUN_20261112_235257_777508 ==========
+2026-11-12 23:52:59,033 - INFO - Validation completed: 84377 valid records, 15623 rejected records
+2026-11-12 23:52:59,601 - INFO - Clean records saved to: data/processed/clean_orders.csv
+2026-11-12 23:52:59,717 - INFO - Rejected records saved to: data/rejected/rejected_orders.csv
+2026-11-12 23:53:00,285 - INFO - Database publish complete: 84377 new records inserted, 0 already existed in DB
+2026-11-12 23:53:00,381 - INFO - Quality report generated at: reports/quality_report.json
+2026-11-12 23:53:00,383 - INFO - Reconciliation report generated at: reports/reconciliation_report.txt
+2026-11-12 23:53:00,385 - INFO - Performance report generated at: reports/performance_report.txt
+2026-11-12 23:53:00,385 - INFO - ========== Pipeline Run RUN_20261112_235257_777508 Finished Successfully ==========
+2026-11-12 23:55:25,904 - INFO - ========== Starting Pipeline Run RUN_20261112_235525_925904 ==========
+2026-11-12 23:55:25,955 - INFO - Validation completed: 863 valid records, 137 rejected records
+2026-11-12 23:55:25,970 - INFO - Clean records saved to: data/processed/clean_orders.csv
+2026-11-12 23:55:25,976 - INFO - Rejected records saved to: data/rejected/rejected_orders.csv
+2026-11-12 23:55:26,003 - INFO - Database publish complete: 863 new records inserted, 0 already existed in DB
+2026-11-12 23:55:26,006 - INFO - Quality report generated at: reports/quality_report.json
+2026-11-12 23:55:26,007 - INFO - Reconciliation report generated at: reports/reconciliation_report.txt
+2026-11-12 23:55:26,008 - INFO - Performance report generated at: reports/performance_report.txt
+2026-11-12 23:55:26,009 - INFO - ========== Pipeline Run RUN_20261112_235525_925904 Finished Successfully ==========
+2026-11-12 23:59:57,410 - INFO - ========== Starting Pipeline Run RUN_20261112_235957_197409 ==========
+2026-11-12 23:59:57,442 - INFO - Validation completed: 863 valid records, 137 rejected records
+2026-11-12 23:59:57,457 - INFO - Clean records saved to: data/processed/clean_orders.csv
+2026-11-12 23:59:57,463 - INFO - Rejected records saved to: data/rejected/rejected_orders.csv
+2026-11-12 23:59:57,465 - INFO - Database publish complete: 0 new records inserted, 863 already existed in DB
+2026-11-12 23:59:57,472 - INFO - Quality report generated at: reports/quality_report.json
+2026-11-12 23:59:57,472 - INFO - Reconciliation report generated at: reports/reconciliation_report.txt
+2026-11-12 23:59:57,472 - INFO - Performance report generated at: reports/performance_report.txt
+2026-11-12 23:59:57,475 - INFO - ========== Pipeline Run RUN_20261112_235957_197409 Finished Successfully ==========
+2026-11-13 00:05:54,785 - INFO - ========== Starting Pipeline Run RUN_20261113_000554_554785 ==========
+2026-11-13 00:05:54,816 - INFO - Validation completed: 863 valid records, 137 rejected records
+2026-11-13 00:05:54,826 - INFO - Clean records saved to: data/processed/clean_orders.csv
+2026-11-13 00:05:54,836 - INFO - Rejected records saved to: data/rejected/rejected_orders.csv
+2026-11-13 00:05:54,841 - INFO - Database publish complete: 0 new records inserted, 863 already existed in DB
+2026-11-13 00:05:54,845 - INFO - Quality report generated at: reports/quality_report.json
+2026-11-13 00:05:54,845 - INFO - Reconciliation report generated at: reports/reconciliation_report.txt
+2026-11-13 00:05:54,847 - INFO - Performance report generated at: reports/performance_report.txt
+2026-11-13 00:05:54,847 - INFO - ========== Pipeline Run RUN_20261113_000554_554785 Finished Successfully ==========
+2026-11-13 00:06:09,859 - INFO - ========== Starting Pipeline Run RUN_20261113_000609_569857 ==========
+2026-11-13 00:06:09,889 - INFO - Validation completed: 863 valid records, 137 rejected records
+2026-11-13 00:06:09,904 - INFO - Clean records saved to: data/processed/clean_orders.csv
+2026-11-13 00:06:09,907 - INFO - Rejected records saved to: data/rejected/rejected_orders.csv
+2026-11-13 00:06:09,912 - INFO - Database publish complete: 0 new records inserted, 863 already existed in DB
+2026-11-13 00:06:09,912 - INFO - Quality report generated at: reports/quality_report.json
+2026-11-13 00:06:09,918 - INFO - Reconciliation report generated at: reports/reconciliation_report.txt
+2026-11-13 00:06:09,919 - INFO - Performance report generated at: reports/performance_report.txt
+2026-11-13 00:06:09,919 - INFO - ========== Pipeline Run RUN_20261113_000609_569857 Finished Successfully ==========
+2026-11-13 00:27:16,553 - INFO - ========== Starting Pipeline Run RUN_20261113_002716_836551 ==========
+2026-11-13 00:27:16,582 - INFO - Validation completed: 858 valid records, 142 rejected records
+2026-11-13 00:27:16,595 - INFO - Clean records saved to: data/processed/clean_orders.csv
+2026-11-13 00:27:16,600 - INFO - Rejected records saved to: data/rejected/rejected_orders.csv
+2026-11-13 00:27:16,605 - INFO - Database publish complete: 0 new records inserted, 858 already existed in DB
+2026-11-13 00:27:16,607 - INFO - Quality report generated at: reports/quality_report.json
+2026-11-13 00:27:16,607 - INFO - Reconciliation report generated at: reports/reconciliation_report.txt
+2026-11-13 00:27:16,609 - INFO - Performance report generated at: reports/performance_report.txt
+2026-11-13 00:27:16,609 - INFO - ========== Pipeline Run RUN_20261113_002716_836551 Finished Successfully ==========
+2026-11-13 10:40:53,599 - INFO - ========== Starting Pipeline Run RUN_20261113_104053_653599 ==========
+2026-11-13 10:40:53,614 - INFO - Validation completed: 845 valid records, 142 rejected records
+2026-11-13 10:40:53,634 - INFO - Database publish complete: 0 inserted, 845 exact duplicates skipped, 0 conflicting duplicates detected
+2026-11-13 10:40:53,646 - INFO - Clean records saved to: data/processed/clean_orders.csv
+2026-11-13 10:40:53,651 - INFO - Rejected records updated at: data/rejected/rejected_orders.csv
+2026-11-13 10:40:53,652 - INFO - Quality report generated at: reports/quality_report.json
+2026-11-13 10:40:53,652 - INFO - Reconciliation report generated at: reports/reconciliation_report.txt
+2026-11-13 10:40:53,653 - INFO - Performance report generated at: reports/performance_report.txt
+2026-11-13 10:40:53,689 - INFO - Recorded run history in pipeline_runs: run_id=RUN_20261113_104053_653599
+2026-11-13 10:40:53,689 - INFO - ========== Pipeline Run RUN_20261113_104053_653599 Finished Successfully ==========
+2026-11-13 10:41:43,129 - INFO - ========== Starting Pipeline Run RUN_20261113_104143_703128 ==========
+2026-11-13 10:41:43,142 - INFO - Validation completed: 845 valid records, 142 rejected records
+2026-11-13 10:41:43,170 - INFO - Database publish complete: 845 inserted, 0 exact duplicates skipped, 0 conflicting duplicates detected
+2026-11-13 10:41:43,182 - INFO - Clean records saved to: data_engineering_project/data/processed/clean_orders.csv
+2026-11-13 10:41:43,188 - INFO - Rejected records updated at: data_engineering_project/data/rejected/rejected_orders.csv
+2026-11-13 10:41:43,188 - INFO - Quality report generated at: data_engineering_project/reports/quality_report.json
+2026-11-13 10:41:43,189 - INFO - Reconciliation report generated at: data_engineering_project/reports/reconciliation_report.txt
+2026-11-13 10:41:43,189 - INFO - Performance report generated at: data_engineering_project/reports/performance_report.txt
+2026-11-13 10:41:43,194 - INFO - Recorded run history in pipeline_runs: run_id=RUN_20261113_104143_703128
+2026-11-13 10:41:43,194 - INFO - ========== Pipeline Run RUN_20261113_104143_703128 Finished Successfully ==========
+2026-11-13 10:41:48,696 - INFO - ========== Starting Pipeline Run RUN_20261113_104148_708695 ==========
+2026-11-13 10:41:48,712 - INFO - Validation completed: 845 valid records, 142 rejected records
+2026-11-13 10:41:48,718 - INFO - Database publish complete: 0 inserted, 845 exact duplicates skipped, 0 conflicting duplicates detected
+2026-11-13 10:41:48,731 - INFO - Clean records saved to: data/processed/clean_orders.csv
+2026-11-13 10:41:48,737 - INFO - Rejected records updated at: data/rejected/rejected_orders.csv
+2026-11-13 10:41:48,740 - INFO - Quality report generated at: reports/quality_report.json
+2026-11-13 10:41:48,740 - INFO - Reconciliation report generated at: reports/reconciliation_report.txt
+2026-11-13 10:41:48,741 - INFO - Performance report generated at: reports/performance_report.txt
+2026-11-13 10:41:48,751 - INFO - Recorded run history in pipeline_runs: run_id=RUN_20261113_104148_708695
+2026-11-13 10:41:48,751 - INFO - ========== Pipeline Run RUN_20261113_104148_708695 Finished Successfully ==========
+2026-11-13 10:44:27,399 - INFO - ========== Starting Pipeline Run RUN_20261113_104427_867399 ==========
+2026-11-13 10:44:27,414 - INFO - Validation completed: 845 valid records, 142 rejected records
+2026-11-13 10:44:27,421 - INFO - Database publish complete: 0 inserted, 845 exact duplicates skipped, 0 conflicting duplicates detected
+2026-11-13 10:44:27,432 - INFO - Clean records saved to: data/processed/clean_orders.csv
+2026-11-13 10:44:27,437 - INFO - Rejected records updated at: data/rejected/rejected_orders.csv
+2026-11-13 10:44:27,438 - INFO - Quality report generated at: reports/quality_report.json
+2026-11-13 10:44:27,439 - INFO - Reconciliation report generated at: reports/reconciliation_report.txt
+2026-11-13 10:44:27,439 - INFO - Performance report generated at: reports/performance_report.txt
+2026-11-13 10:44:27,449 - INFO - Recorded run history in pipeline_runs: run_id=RUN_20261113_104427_867399
+2026-11-13 10:44:27,450 - INFO - ========== Pipeline Run RUN_20261113_104427_867399 Finished Successfully ==========
+2026-11-13 10:48:05,236 - INFO - ========== Starting Pipeline Run RUN_20261113_104805_085236 ==========
+2026-11-13 10:48:05,248 - INFO - Validation completed: 845 valid records, 142 rejected records
+2026-11-13 10:48:05,253 - INFO - Database publish complete: 0 inserted, 845 exact duplicates skipped, 0 conflicting duplicates detected
+2026-11-13 10:48:05,265 - INFO - Clean records saved to: data/processed/clean_orders.csv
+2026-11-13 10:48:05,268 - INFO - Rejected records updated at: data/rejected/rejected_orders.csv
+2026-11-13 10:48:05,269 - INFO - Quality report generated at: reports/quality_report.json
+2026-11-13 10:48:05,269 - INFO - Reconciliation report generated at: reports/reconciliation_report.txt
+2026-11-13 10:48:05,270 - INFO - Performance report generated at: reports/performance_report.txt
+2026-11-13 10:48:05,282 - INFO - Recorded run history in pipeline_runs: run_id=RUN_20261113_104805_085236
+2026-11-13 10:48:05,282 - INFO - ========== Pipeline Run RUN_20261113_104805_085236 Finished Successfully ==========
+2026-11-13 10:48:12,133 - INFO - ========== Starting Pipeline Run RUN_20261113_104812_092132 ==========
+2026-11-13 10:48:12,145 - INFO - Validation completed: 845 valid records, 142 rejected records
+2026-11-13 10:48:12,151 - INFO - Database publish complete: 0 inserted, 845 exact duplicates skipped, 0 conflicting duplicates detected
+2026-11-13 10:48:12,162 - INFO - Clean records saved to: data/processed/clean_orders.csv
+2026-11-13 10:48:12,168 - INFO - Rejected records updated at: data/rejected/rejected_orders.csv
+2026-11-13 10:48:12,169 - INFO - Quality report generated at: reports/quality_report.json
+2026-11-13 10:48:12,170 - INFO - Reconciliation report generated at: reports/reconciliation_report.txt
+2026-11-13 10:48:12,171 - INFO - Performance report generated at: reports/performance_report.txt
+2026-11-13 10:48:12,180 - INFO - Recorded run history in pipeline_runs: run_id=RUN_20261113_104812_092132
+2026-11-13 10:48:12,180 - INFO - ========== Pipeline Run RUN_20261113_104812_092132 Finished Successfully ==========
+2026-11-13 10:48:47,827 - INFO - ========== Starting Pipeline Run RUN_20261113_104847_127826 ==========
+2026-11-13 10:48:47,844 - INFO - Validation completed: 845 valid records, 142 rejected records
+2026-11-13 10:48:47,850 - INFO - Database publish complete: 0 inserted, 845 exact duplicates skipped, 0 conflicting duplicates detected
+2026-11-13 10:48:47,870 - INFO - Clean records saved to: data/processed/clean_orders.csv
+2026-11-13 10:48:47,875 - INFO - Rejected records updated at: data/rejected/rejected_orders.csv
+2026-11-13 10:48:47,877 - INFO - Quality report generated at: reports/quality_report.json
+2026-11-13 10:48:47,878 - INFO - Reconciliation report generated at: reports/reconciliation_report.txt
+2026-11-13 10:48:47,879 - INFO - Performance report generated at: reports/performance_report.txt
+2026-11-13 10:48:47,886 - INFO - Recorded run history in pipeline_runs: run_id=RUN_20261113_104847_127826
+2026-11-13 10:48:47,886 - INFO - ========== Pipeline Run RUN_20261113_104847_127826 Finished Successfully ==========
+2026-11-13 10:49:08,583 - INFO - ========== Starting Pipeline Run RUN_20261113_104908_148582 ==========
+2026-11-13 10:49:08,595 - INFO - Validation completed: 845 valid records, 142 rejected records
+2026-11-13 10:49:08,600 - INFO - Database publish complete: 0 inserted, 845 exact duplicates skipped, 0 conflicting duplicates detected
+2026-11-13 10:49:08,611 - INFO - Clean records saved to: data/processed/clean_orders.csv
+2026-11-13 10:49:08,615 - INFO - Rejected records updated at: data/rejected/rejected_orders.csv
+2026-11-13 10:49:08,616 - INFO - Quality report generated at: reports/quality_report.json
+2026-11-13 10:49:08,617 - INFO - Reconciliation report generated at: reports/reconciliation_report.txt
+2026-11-13 10:49:08,618 - INFO - Performance report generated at: reports/performance_report.txt
+2026-11-13 10:49:08,629 - INFO - Recorded run history in pipeline_runs: run_id=RUN_20261113_104908_148582
+2026-11-13 10:49:08,629 - INFO - ========== Pipeline Run RUN_20261113_104908_148582 Finished Successfully ==========

@@ -1,0 +1,55 @@
+======================================================================
+             E-COMMERCE DATA PIPELINE RECONCILIATION REPORT
+======================================================================
+Run ID:                  RUN_20261113_104908_148582
+Source File:             orders.csv
+Execution Timestamp:     2026-11-13 10:49:08
+Execution Status:        SUCCESS
+----------------------------------------------------------------------
+1. ROW COUNT RECONCILIATION
+----------------------------------------------------------------------
+Total Source Records:          1000
+Malformed Source Rows:           13
+Valid Records:                  845
+Rejected Records:               155
+Batch Duplicate Records:         17
+Reconciliation Check:    PASSED
+Formula: Total Source (1000) = Valid (845) + Rejected (155)
+----------------------------------------------------------------------
+2. TARGET DATABASE RECONCILIATION
+----------------------------------------------------------------------
+Pre-Run Database Count:         845
+Newly Inserted Records:           0
+Already Existing in DB:         845
+  - Exact (Skipped):            845
+  - Conflicting (Rej):            0
+Post-Run Database Count:        845
+DB Integrity Check:      PASSED
+----------------------------------------------------------------------
+3. FINANCIAL & STATUS SUMMARY (VALID ORDERS)
+----------------------------------------------------------------------
+Total Valid Amount:     $ 210252.33
+Completed Orders:               296  ($  72033.89)
+Pending Orders:                 267  ($  67057.34)
+Cancelled Orders:               282  ($  71161.10)
+----------------------------------------------------------------------
+4. SQL VERIFICATION QUERIES
+----------------------------------------------------------------------
+-- Check total orders in database
+SELECT COUNT(*) AS total_orders FROM orders;
+
+-- Check for duplicate order_ids (should return 0 rows)
+SELECT order_id, COUNT(*) FROM orders GROUP BY order_id HAVING COUNT(*) > 1;
+
+-- Check referential integrity (should return 0 rows)
+SELECT o.order_id, o.customer_id FROM orders o LEFT JOIN customers c ON o.customer_id = c.customer_id WHERE c.customer_id IS NULL;
+
+-- Check total rejected records across runs
+SELECT status, SUM(rejected_count) FROM pipeline_runs GROUP BY status;
+
+-- Check execution history
+SELECT run_id, source_file, status, inserted_count, duplicate_count FROM pipeline_runs ORDER BY start_time DESC;
+
+-- Check total order amount by status
+SELECT order_status, COUNT(*), ROUND(SUM(amount), 2) FROM orders GROUP BY order_status;
+======================================================================
